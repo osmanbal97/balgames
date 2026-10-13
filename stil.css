@@ -1,0 +1,19 @@
+:root { --bg: #FBF7EF; --ink: #1E1A24; --muted: #6B6570; --line: #E6DFD2; --accent: #C98A00; }
+@media (prefers-color-scheme: dark) { :root { --bg: #141216; --ink: #F1ECE4; --muted: #A69FA9; --line: #2C2830; --accent: #F2B705; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.6 -apple-system, system-ui, 'Segoe UI', Roboto, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 24px 16px 64px; }
+header { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-bottom: 24px; }
+.logo { display: flex; align-items: center; gap: 10px; font-weight: 800; font-size: 20px; color: var(--ink); text-decoration: none; }
+.logo img { border-radius: 10px; }
+a { color: var(--accent); }
+nav { font-size: 14px; }
+h1 { font-size: 30px; line-height: 1.2; margin: 8px 0 4px; }
+h2 { font-size: 19px; margin: 28px 0 6px; }
+.tarih { color: var(--muted); font-size: 14px; margin-top: 0; }
+hr { border: 0; border-top: 1px solid var(--line); margin: 48px 0; }
+ul { padding-left: 20px; }
+.oyunlar { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 14px; margin: 16px 0 8px; padding: 0; list-style: none; }
+.oyunlar li { display: flex; align-items: center; gap: 10px; padding: 10px; border: 1px solid var(--line); border-radius: 14px; font-weight: 700; }
+.oyunlar img { width: 48px; height: 48px; border-radius: 11px; flex: none; }
+.kutu { border: 1px solid var(--line); border-radius: 14px; padding: 4px 16px 12px; margin-top: 20px; }
