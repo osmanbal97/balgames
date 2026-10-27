@@ -16,4 +16,6 @@ ul { padding-left: 20px; }
 .oyunlar { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 14px; margin: 16px 0 8px; padding: 0; list-style: none; }
 .oyunlar li { display: flex; align-items: center; gap: 10px; padding: 10px; border: 1px solid var(--line); border-radius: 14px; font-weight: 700; }
 .oyunlar img { width: 48px; height: 48px; border-radius: 11px; flex: none; }
+.oyunlar span { display: flex; flex-direction: column; line-height: 1.25; min-width: 0; }
+.oyunlar small { font-weight: 500; font-size: 13px; color: var(--muted); }
 .kutu { border: 1px solid var(--line); border-radius: 14px; padding: 4px 16px 12px; margin-top: 20px; }
